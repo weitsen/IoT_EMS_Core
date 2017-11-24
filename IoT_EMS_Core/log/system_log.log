@@ -1,0 +1,8 @@
+[2017/09/24 21:53:39] (system)System(Ver 0.1) init...
+[2017/09/24 21:53:39] (system)CassandraConn.loadConnConfig() : CONNECTION_CORE - 20
+[2017/09/24 21:53:39] (system)CassandraConn.loadConnConfig() : CONNECTION_MAX - 20
+[2017/09/24 21:53:39] (system)CassandraConn.loadConnConfig() : CONNECTION_TIME_OUT - 20
+[2017/09/24 21:53:39] (system)CassandraConn.loadConnConfig() : CONNECTION_ACC - cassandra
+[2017/09/24 21:53:39] (system)CassandraConn.loadConnConfig() : CONNECTION_PWD - cassandra
+[2017/09/24 21:53:39] (system)CassandraConn.loadConnConfig() : CONNECTION_PORT - 9042
+[2017/09/24 21:53:39] (system)CassandraConn.loadConnConfig() : CONTACT_POINTS - 127.0.0.1

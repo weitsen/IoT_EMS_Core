@@ -1,0 +1,24 @@
+CREATE KEYSPACE iot_report WITH replication = {'class': 'SimpleStrategy', 'replication_factor': '1'}  AND durable_writes = true;
+
+CREATE TABLE iot_report.report_item(
+	interface_id      int,
+	node_id           int,
+	report_type       text,
+	record_count      int,
+	create_time       timestamp, 
+	PRIMARY KEY(interface_id, node_id)
+);
+
+CREATE TABLE iot_report.report_detail_type_text(
+	report_id         text,
+        data_1            text,
+        data_2            text,
+        data_3            text,
+        data_4            text,
+        data_5            text,
+        data_6            text,
+        data_7            text,
+        data_8            text,
+	update_time       timestamp, 
+	PRIMARY KEY(report_id, update_time)
+);

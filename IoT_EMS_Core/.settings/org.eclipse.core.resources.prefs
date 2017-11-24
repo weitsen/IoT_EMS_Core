@@ -1,0 +1,5 @@
+eclipse.preferences.version=1
+encoding//src/Core/cassandra/CassandraConnManager.java=UTF-8
+encoding//src/Core/cassandra/agent/CassandraConnAgent.java=UTF-8
+encoding//src/Core/util/Encryption/AESDecode.java=UTF-8
+encoding//src/Core/util/Encryption/AESEncode.java=UTF-8

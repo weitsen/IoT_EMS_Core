@@ -1,0 +1,23 @@
+CREATE DATABASE iot;
+USE iot;
+CREATE TABLE device_node(
+	node_id                 int AUTO_INCREMENT,
+	device_ip               varchar(255) NOT NULL,
+	device_mode             varchar(255) NOT NULL,
+	device_description      varchar(2048),
+	device_status           varchar(128),
+	device_account          varchar(256),
+	device_passwd           varchar(256),
+	PRIMARY KEY(node_id)
+);
+CREATE INDEX ip_index ON device_node(device_ip);
+
+CREATE TABLE device_interface(
+	node_id                 int NOT NULL,
+	interface_id            int NOT NULL,
+	interface_description   varchar(2048),
+	interfaceItem_type      varchar(255),
+	interfaceItem_name      varchar(255),
+	PRIMARY KEY(node_id, interface_id)
+);
+CREATE INDEX ip_index ON device_interface(node_id);
